@@ -1,0 +1,41 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "我的个人主页",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "prod": "webpack --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaminHuang/MyWeb.git"
+  },
+  "author": "JaminHuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaminHuang/MyWeb/issues"
+  },
+  "homepage": "https://github.com/JaminHuang/MyWeb#readme",
+  "dependencies": {
+    "file-loader": "^0.9.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "url-loader": "^0.5.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-import": "^1.1.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.25.0",
+    "open": "0.0.5",
+    "react-hot-loader": "^3.1.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
